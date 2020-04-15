@@ -52,10 +52,19 @@ header {
 .quick-right a:focus {
   text-shadow: 0 0 0.01px black;
 }
-#headerLogo {
+.title {
+  text-align: center;
+  padding: 15px;
+}
+#titleLogo {
   width: 40px;
   height: 40px;
-  align-content: center;
+}
+.title h1 {
+  font-family: 'PT Serif', serif;
+  font-size: 50px;
+  color: black;
+  display: inline;
 }
 #main-top {
   background: url('/images/main.jpg') no-repeat top;
