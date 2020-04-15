@@ -51,6 +51,7 @@ header {
 .quick-right a:hover,
 .quick-right a:focus {
   text-shadow: 0 0 0.01px black;
+  background-color: whitesmoke;
 }
 .title {
   text-align: center;
@@ -75,6 +76,8 @@ nav ul li {
   font-size: 17px;
   text-align: center;
   color: black;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 li:hover,
 li:focus {
@@ -90,7 +93,7 @@ li:focus {
   padding-left: 40px;
   padding-top: 50px;
   font-family: 'Libre Caslon Display', serif;
-  font-weight: 100;
+  font-weight: lighter;
   font-style: italic;
   font-size: 27px;
   color: #ffffff;
@@ -100,6 +103,95 @@ li:focus {
   padding-top: 10px;
   height: 40px;
   width: 100px;
+}
+h3 {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 12px;
+}
+#arrow1,
+#arrow2,
+#arrow3,
+#arrow4 {
+  padding-left: 10px;
+  width: 25px;
+  height: 18px;
+}
+#arrow1:hover,
+#arrow2:hover,
+#arrow3:hover,
+#arrow4:hover,
+#arrow1:focus,
+#arrow2:focus,
+#arrow3:focus,
+#arrow4:focus {
+  padding-left: 12px;
+}
+#menu-new,
+#menu-bestsellers,
+#menu-fiction,
+#menu-nonfiction {
+  display: flex;
+  flex-direction: row;
+}
+#new1,
+#new2,
+#new3,
+#bestsellers1,
+#bestsellers2,
+#bestsellers3,
+#fiction1,
+#fiction2,
+#fiction3,
+#nonfiction1,
+#nonfiction2,
+#nonfiction3 {
+  flex: 1;
+  text-align: center;
+  align-content: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: whitesmoke;
+  margin: 5px;
+  padding: 10px;
+}
+#main-fiction {
+  display: flex;
+  flex-direction: row;
+}
+#main-nonfiction {
+  display: flex;
+  flex-direction: row;
+}
+
+.bookImage {
+  width: 200px;
+  height: 270px;
+  margin-bottom: 10px;
+}
+.bookName {
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+}
+.bookBy {
+  font-family: 'PT Serif', serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+.bookCategory {
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+.bookPrice {
+  font-family: 'PT Serif', serif;
+  font-size: 15px;
+  line-height: 30px;
 }
 @media (max-width: 1280px) {
   .container {
@@ -145,9 +237,6 @@ li:focus {
   }
   #main-top img {
     padding-left: 30px;
-    padding-top: 10px;
-    height: 35px;
-    width: 85px;
   }
   nav ul li {
     width: 30%;
@@ -155,6 +244,28 @@ li:focus {
   }
   #main-top {
     height: 350px;
+  }
+  #menu-new,
+  #menu-bestsellers,
+  #menu-fiction,
+  #menu-nonfiction {
+    flex-direction: column;
+  }
+
+  #new1,
+  #new2,
+  #new3,
+  #bestsellers1,
+  #bestsellers2,
+  #bestsellers3,
+  #fiction1,
+  #fiction2,
+  #fiction3,
+  #nonfiction1,
+  #nonfiction2,
+  #nonfiction3 {
+    margin: 5px 20px 5px 20px;
+    padding: 10px;
   }
 }
 @media (max-width: 600px) {
