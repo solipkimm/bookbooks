@@ -79,6 +79,7 @@ nav ul li {
 li:hover,
 li:focus {
   text-shadow: 0 0 0.01px black;
+  background-color: whitesmoke;
 }
 #main-top {
   background: url('images/main.jpg') no-repeat top;
@@ -126,20 +127,14 @@ li:focus {
   }
 }
 @media (max-width: 600px) {
-}
-@media (max-width: 480px) {
   #signUp {
     display: none;
   }
   nav ul li {
     font-size: 16px;
   }
-  #main-top {
-    height: 250px;
-  }
+}
+@media (max-width: 480px) {
 }
 @media (max-width: 320px) {
-  nav ul li {
-    font-size: 14px;
-  }
 }
