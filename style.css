@@ -110,6 +110,9 @@ li:focus {
     font-size: 15;
     padding: 5px 5px 5px 5px;
   }
+  #main-top {
+    height: 450px;
+  }
 }
 @media (max-width: 768px) {
   header {
@@ -118,85 +121,25 @@ li:focus {
   nav ul li {
     width: 30%;
   }
-  .quick-left a img {
-    width: 30px;
-    height: 30px;
-  }
-  .title a img {
-    width: 30px;
-    height: 30px;
-  }
-  .title h1 {
-    font-size: 40px;
-  }
-  .quick-right a {
-    font-size: 15;
-    padding: 5px 5px 5px 5px;
+  #main-top {
+    height: 400px;
   }
 }
 @media (max-width: 600px) {
-  header {
-    height: 150px;
-  }
-  .title a img {
-    width: 30px;
-    height: 30px;
-  }
-  .quick-left a img {
-    width: 30px;
-    height: 30px;
-  }
-  .title h1 {
-    font-size: 40px;
-  }
-  .quick-right a {
-    font-size: 15;
-    padding: 5px 5px 5px 5px;
-  }
 }
 @media (max-width: 480px) {
-  header {
-    height: 150px;
+  #signUp {
+    display: none;
   }
   nav ul li {
     font-size: 16px;
   }
-  .quick-left a img {
-    width: 30px;
-    height: 30px;
-  }
-  .title a img {
-    width: 30px;
-    height: 30px;
-  }
-  .title h1 {
-    font-size: 40px;
-  }
-  .quick-right a {
-    font-size: 15;
-    padding: 5px 5px 5px 5px;
+  #main-top {
+    height: 250px;
   }
 }
 @media (max-width: 320px) {
-  header {
-    height: 150px;
-  }
   nav ul li {
-    font-size: 15px;
-  }
-  .quick-left a img {
-    width: 30px;
-    height: 30px;
-  }
-  .title a img {
-    width: 30px;
-    height: 30px;
-  }
-  .title h1 {
-    font-size: 40px;
-  }
-  .quick-right a {
-    font-size: 15;
-    padding: 5px 5px 5px 5px;
+    font-size: 14px;
   }
 }
