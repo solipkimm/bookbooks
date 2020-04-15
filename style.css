@@ -158,6 +158,9 @@ li:focus {
   header {
     height: 150px;
   }
+  nav ul li {
+    font-size: 16px;
+  }
   .quick-left a img {
     width: 30px;
     height: 30px;
@@ -177,6 +180,9 @@ li:focus {
 @media (max-width: 320px) {
   header {
     height: 150px;
+  }
+  nav ul li {
+    font-size: 15px;
   }
   .quick-left a img {
     width: 30px;
