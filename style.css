@@ -233,7 +233,7 @@ footer {
   padding: 2em;
   background-color: whitesmoke;
   max-width: 500px;
-  min-width: 300px;
+  min-width: 200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -352,7 +352,6 @@ input[type='submit']:focus {
     display: grid;
     grid-template-columns: 1fr;
   }
-
   #new1,
   #new2,
   #new3,
@@ -367,6 +366,12 @@ input[type='submit']:focus {
   #nonfiction3 {
     margin: 5px 20px 5px 20px;
     padding: 10px;
+  }
+  #main2,
+  #main3,
+  #main4 {
+    margin-right: 0;
+    margin-left: 0;
   }
   #main2 .form1,
   #main3 .form1,
