@@ -151,12 +151,10 @@ li:focus {
   }
   nav ul li {
     width: 30%;
+    font-size: 15px;
   }
   #main-top {
     height: 350px;
-  }
-  nav ul li {
-    font-size: 16px;
   }
 }
 @media (max-width: 600px) {
