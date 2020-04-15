@@ -60,34 +60,16 @@ header {
   }
 }
 @media (max-width: 1024px) {
-  .container {
-    width: 100%;
-  }
 }
 @media (max-width: 960px) {
-  .container {
-    width: 100%;
-  }
 }
 @media (max-width: 768px) {
-  .container {
-    width: 100%;
-  }
 }
 @media (max-width: 600px) {
-  .container {
-    width: 100%;
-  }
 }
 @media (max-width: 480px) {
-  .container {
-    width: 100%;
-  }
 }
 @media (max-width: 320px) {
-  .container {
-    width: 100%;
-  }
 }
 
 #headerLogo {
