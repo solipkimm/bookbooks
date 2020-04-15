@@ -85,6 +85,22 @@ li:focus {
   background: url('images/main.jpg') no-repeat top;
   height: 500px;
 }
+#main-top h2 {
+  margin: 0;
+  padding-left: 40px;
+  padding-top: 50px;
+  font-family: 'Libre Caslon Display', serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 27px;
+  color: #ffffff;
+}
+#main-top img {
+  padding-left: 40px;
+  padding-top: 10px;
+  height: 40px;
+  width: 100px;
+}
 @media (max-width: 1280px) {
   .container {
     width: 100%;
@@ -119,20 +135,31 @@ li:focus {
   header {
     height: 150px;
   }
+  #signUp {
+    display: none;
+  }
+  #main-top h2 {
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 23px;
+  }
+  #main-top img {
+    padding-left: 30px;
+    padding-top: 10px;
+    height: 35px;
+    width: 85px;
+  }
   nav ul li {
     width: 30%;
   }
   #main-top {
-    height: 400px;
-  }
-}
-@media (max-width: 600px) {
-  #signUp {
-    display: none;
+    height: 350px;
   }
   nav ul li {
     font-size: 16px;
   }
+}
+@media (max-width: 600px) {
 }
 @media (max-width: 480px) {
 }
