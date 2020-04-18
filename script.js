@@ -12,32 +12,6 @@ if (document.querySelector('.form3')) {
     }
   });
 }
-// menu - home button
-let menuHome = document.querySelector('#menu-home');
-menuHome.onclick = function() {
-  if (document.querySelector('#main2')) {
-    document.getElementById('main2').hidden = true;
-    document.getElementById('main1').hidden = false;
-  }
-  if (document.querySelector('#main3')) {
-    document.getElementById('main3').hidden = true;
-    document.getElementById('main1').hidden = false;
-  }
-  if (document.querySelector('#main4')) {
-    document.getElementById('main4').hidden = true;
-    document.getElementById('main1').hidden = false;
-  }
-  document.getElementById('main-top').hidden = false;
-  document.getElementById('menuLine-new').hidden = false;
-  document.getElementById('menuLine-bestsellers').hidden = false;
-  document.getElementById('menuLine-fiction').hidden = false;
-  document.getElementById('menuLine-nonfiction').hidden = false;
-  document.getElementById('arrow1').hidden = false;
-  document.getElementById('arrow2').hidden = false;
-  document.getElementById('arrow3').hidden = false;
-  document.getElementById('arrow4').hidden = false;
-};
-
 // menu - books button
 let menuBooks = document.querySelector('#menu-books');
 menuBooks.onclick = function() {
