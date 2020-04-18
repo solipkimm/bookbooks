@@ -6,9 +6,10 @@ if (document.querySelector('.form3')) {
     let InputBoxLocation = document.querySelector('#orderNumber');
     let clicked = reason.target.value;
     if (clicked === 'OrderProblem') {
+      InputBoxLocation.hidden = false;
       InputBoxLocation.type = 'text';
     } else {
-      InputBoxLocation.type = 'hidden';
+      InputBoxLocation.hidden = true;
     }
   });
 }
