@@ -12,21 +12,20 @@ if (document.querySelector('.form3')) {
     }
   });
 }
-
 // menu - home button
 let menuHome = document.querySelector('#menu-home');
 menuHome.onclick = function() {
-  if (document.querySelector('#menu2')) {
-    document.getElementById('menu2').hidden = true;
-    document.getElementById('menu1').hidden = false;
+  if (document.querySelector('#main2')) {
+    document.getElementById('main2').hidden = true;
+    document.getElementById('main1').hidden = false;
   }
-  if (document.querySelector('#menu3')) {
-    document.getElementById('menu3').hidden = true;
-    document.getElementById('menu1').hidden = false;
+  if (document.querySelector('#main3')) {
+    document.getElementById('main3').hidden = true;
+    document.getElementById('main1').hidden = false;
   }
-  if (document.querySelector('#menu4')) {
-    document.getElementById('menu4').hidden = true;
-    document.getElementById('menu1').hidden = false;
+  if (document.querySelector('#main4')) {
+    document.getElementById('main4').hidden = true;
+    document.getElementById('main1').hidden = false;
   }
   document.getElementById('main-top').hidden = false;
   document.getElementById('menuLine-new').hidden = false;
@@ -121,7 +120,6 @@ menuBestsellers.onclick = function() {
   document.getElementById('menuLine-nonfiction').hidden = true;
   document.getElementById('arrow2').hidden = true;
 };
-
 // bestsellers arrow button
 let arrowBest = document.querySelector('#menu-bestsellers');
 arrowBest.onclick = function() {
@@ -190,12 +188,22 @@ menuNonfiction.onclick = function() {
 };
 
 // nonfiction arrow button
-let arrowNfic = document.querySelector('#arrow4');
-arrowNfic.onclick = function() {
+let arrowNon = document.querySelector('#arrow4');
+arrowNon.onclick = function() {
   document.getElementById('main-top').hidden = true;
   document.getElementById('menuLine-new').hidden = true;
   document.getElementById('menuLine-bestsellers').hidden = true;
   document.getElementById('menuLine-fiction').hidden = true;
   document.getElementById('menuLine-nonfiction').hidden = false;
   document.getElementById('arrow4').hidden = true;
+};
+
+// shop now button
+document.getElementById('shopNow').onclick = function() {
+  document.getElementById('main-top').hidden = true;
+  document.getElementById('menuLine-new').hidden = true;
+  document.getElementById('menuLine-bestsellers').hidden = false;
+  document.getElementById('menuLine-fiction').hidden = true;
+  document.getElementById('menuLine-nonfiction').hidden = true;
+  document.getElementById('arrow2').hidden = true;
 };
